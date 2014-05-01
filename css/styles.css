@@ -6,16 +6,17 @@
 body{
     margin: 0px;
     font-family: Open Sans;
-    font-size: 13px;
-    color: #58595b;
+    font-size: 14px;
+    color: #fff;
     font-weight: 300;
     background: url(../images/page-bg.jpg)no-repeat center center fixed;
 }
 
 h1, h2, h3, h4{
-    margin: 0px;
+    margin: 7px;
     padding: 0px;
     font-weight: 300;
+    color: #fc0;
 }
 
 h1{
@@ -26,3 +27,28 @@ h2{
     font-size: 1,8em;
     font-weight: 500;
 }
+#header{background-color: #000; border-bottom: 4px solid #666;}
+.logo {font-size: 25px; color: #fc0; padding: 10px; display: block; text-transform: uppercase}
+#occupation { text-align: right; display: block; padding: 5px 0px; color: #fc0;}
+#feature{
+    background: url(../images/overlay.png);
+    width: 500px;
+    color: #fff;
+    padding: 15px;
+    position: absolute;
+    top: 17%;
+    left: 4%;
+    text-align: justify;
+}
+#name{
+    display: block;
+    border-bottom: dotted 1px #fc0;
+}
+.btn-attach{
+    display: block;
+    background: url(../images/attach.png)no-repeat #666;
+    padding: 3px 0px 6px 26px;
+    width: 200px;
+    border-radius: 5px;
+}
+a{text-decoration: none; color: #fff;}
